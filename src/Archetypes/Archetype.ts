@@ -23,7 +23,7 @@ export default abstract class Archetype {
     return this._special;
   }
 
-  abstract get energyType(): EnergyType;
+  abstract get energyType(): EnergyType | string;
 
   static createdArchetypeInstances(): number {
     throw new Error('Not implemented');
