@@ -1,0 +1,8 @@
+ignore_files:
+  - tests/
+  - .eslintignore
+  - .eslintrc.json
+  - jest.config.js
+  - jest.d.ts
+  - tsconfig.json
+  - package.json
